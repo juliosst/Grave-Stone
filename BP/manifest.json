@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Grave Stone",
+		"description": "After a death, a grave spawns containing all the deceased's items",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "17282b6c-9654-4c73-8c76-96b904859d53",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3e5b39ad-56c0-4a06-9898-0ec67cfb7678",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "f8ce95cc-cf72-4639-8441-d4f6e8590ba5",
+			"entry": "scripts/run.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9e42b519-3e2f-4752-8178-6c76296d88d3",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.4.0"
+		}
+	]
+}

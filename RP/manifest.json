@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Grave Stone",
+		"description": "After a death, a grave spawns containing all the deceased's items",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "9e42b519-3e2f-4752-8178-6c76296d88d3",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "448b5129-e21b-46a5-ae23-618dee317b01",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

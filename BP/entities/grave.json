@@ -1,0 +1,57 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"spawn_category": "creature",
+			"identifier": "grave:grave",
+			"is_summonable": true
+		},
+		"component_groups": {
+			"grave:open": {
+				"minecraft:transformation": {
+					"drop_inventory": true
+				},
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:inventory": {
+				"container_type": "inventory",
+				"inventory_size": 41
+			},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:collision_box": {
+				"height": 0.9,
+				"width": 1
+			},
+			"minecraft:health": {
+				"max": 20
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"deals_damage": false
+				}
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": true
+			}
+		},
+		"events": {
+			"grave:open": {
+				"add": {
+					"component_groups": [
+						"grave:open"
+					]
+				}
+			}
+		}
+	}
+}
