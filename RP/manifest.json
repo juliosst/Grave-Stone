@@ -12,7 +12,7 @@
 		"version": [
 			1,
 			0,
-			0
+			1
 		]
 	},
 	"modules": [
@@ -22,8 +22,11 @@
 			"version": [
 				1,
 				0,
-				0
+				1
 			]
 		}
-	]
+	],
+	"metadata": {
+		"product_type": "addon"
+	}
 }
