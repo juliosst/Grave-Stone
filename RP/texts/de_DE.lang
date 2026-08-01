@@ -1,16 +1,16 @@
-item.grave:map=Grave Stone Map
-entity.grave:grave_stone.name=Grave Stone
+item.grave:map=Grab Stein Karte
+entity.grave:grave_stone.name=Grab Stein
 
 ## commands/registry
 grave.command.settings.description=Einstellungen für das Verhalten von Grabsteinen
 ## commands/registry
 
 ## commands/settings
-grave.settings.gamerule.unSuccess=§cGame rule: %s does not exist
+grave.settings.gamerule.unSuccess=§cSpielregel: %s existiert nicht
 ## commands/settings
 
 ## events/hitInteract/hitInteract
-grave.info.quickloot=Crouch for quick looting
+grave.info.quickloot=Ducken für schnelles Plündern
 ## events/hitInteract/hitInteract
 
 ## events/itemUse/itemUse
@@ -18,12 +18,12 @@ grave.itemUse.graveLocation=\n§r§3Dimension: §6%s\n§cX: %s, Y: %s, Z: %s
 ## events/itemUse/itemUse
 
 ## events/itemUse/teleport
-grave.teleport.startTeleport=§6Teleportation starting, do not move
-grave.teleport.abortedTeleport=§cTeleportation aborted
-grave.teleport.teleportTo=§6Teleport to %s, %s, %s
+grave.teleport.startTeleport=§6Teleportation startet, nicht bewegen
+grave.teleport.abortedTeleport=§cTelepotation abgebrochen
+grave.teleport.teleportTo=§6Telepotiere zu %s, %s, %s
 grave.teleport.teleportIn=§6Teleportation in %s...
 ## events/itemUse/teleport
 
 ## events/interactBlock
-grave.interactBlock.blockPlace=§cYou cannot place this block!
+grave.interactBlock.blockPlace=§cDu kannst diesen Block nicht platzieren!
 ## events/interactBlock

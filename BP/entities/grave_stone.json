@@ -3,11 +3,11 @@
 	"minecraft:entity": {
 		"description": {
 			"spawn_category": "creature",
-			"identifier": "grave:grave",
+			"identifier": "grave:grave_stone",
 			"is_summonable": true
 		},
 		"component_groups": {
-			"grave:open": {
+			"grave_stone:open": {
 				"minecraft:transformation": {
 					"drop_inventory": true
 				},
@@ -17,7 +17,7 @@
 		"components": {
 			"minecraft:inventory": {
 				"container_type": "inventory",
-				"inventory_size": 41
+				"inventory_size": 45
 			},
 			"minecraft:movement": {
 				"value": 0
@@ -45,10 +45,10 @@
 			}
 		},
 		"events": {
-			"grave:open": {
+			"grave_stone:open": {
 				"add": {
 					"component_groups": [
-						"grave:open"
+						"grave_stone:open"
 					]
 				}
 			}

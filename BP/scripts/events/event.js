@@ -1,4 +1,6 @@
-import './itemUse';
-import './entityDie';
-import './openGrave';
-import './gameRuleChange';
+import './hitInteract/hitInteract';
+import './entityHurt/entityHurt';
+import '../commands/registry';
+import './itemUse/itemUse';
+import './interactBlock';
+import './playerSpawn';

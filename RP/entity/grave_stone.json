@@ -2,25 +2,25 @@
 	"format_version": "1.20.80",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "grave:grave",
+			"identifier": "grave:grave_stone",
 			"materials": {
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/grave"
+				"default": "textures/entity/grave_stone"
 			},
 			"geometry": {
-				"default": "geometry.grave"
+				"default": "geometry.grave_stone"
 			},
 			"render_controllers": [
-				"controller.render.grave"
+				"controller.render.grave_stone"
 			],
 			"animations": {
-				"grave": "animation.grave"
+				"grave_stone": "animation.grave_stone"
 			},
 			"scripts": {
 				"animate": [
-					"grave"
+					"grave_stone"
 				]
 			}
 		}
